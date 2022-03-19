@@ -152,7 +152,7 @@ console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen')
 })
 	kurr.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(kurr.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Kurz Botz Asisstan Loading...')
+		info('2', 'VERDI BOTZ Loading⏳...')
 	})
 	fs.existsSync('./session.json') && kurr.loadAuthInfo('./session.json')
 	kurr.on('connecting', () => {
@@ -293,7 +293,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				} catch {
 
-					ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
+					ppUrl = 'https://i.ibb.co/6BRf4Rc/Verdi-Bot-No-Profile.png'
 
 				}
 
@@ -323,7 +323,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `Daahh @${num.split('@')[0]}\nSelamat Tinggal Di Group: ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, `KurzBotz-Assistan`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `Verdi-Bot`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
