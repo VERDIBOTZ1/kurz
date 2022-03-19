@@ -11,6 +11,7 @@ TQ TO:
 @ADI
 @KurrXd
 @Finx
+@verdi
 * Note:
 * Kalau Mau Recode/Reupload Kasih Credit
 **/
@@ -2543,7 +2544,7 @@ break
 - QRIS ALL PAYMENT
 
 📥 BERMINAT ? HUBUNGI :
-https://bit.ly/BeliRdpBang ( KurrXd )
+https://wa.me//+6283869803330( verdi )
 
 
 *MATURSUWUN MONGGO DI LARISI*`
@@ -2555,7 +2556,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan`
+menu =` verdi botz`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2595,7 +2596,7 @@ const serialUser = createSerial(18)
  * Pengguna:* ${_registered.length}
 └❏
 
-*「 Kurz Bot Assistan 」*`
+*「 verdi botz 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
@@ -3427,7 +3428,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©verdi_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3465,13 +3466,13 @@ case 'developer':
 let ini_list = []
 for (let i of ownerNumber) {
 const vname = kurr.contacts[i] != undefined ? kurr.contacts[i].vname || kurr.contacts[i].notify : undefined
-ini_list.push({
-"displayName": `Developer Kurz Bot Assistan`,
+ini_list.push
+"displayName": `Developer verdi botz
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 kurr.sendMessage(from, {
-"displayName": `Developer Kurz Bot Assistan`,
+"displayName": `Developer verdi Assistan`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3482,7 +3483,7 @@ if (isQuotedSticker) {
 if (!c) return reply(`Penggunaan : ${command} cmdnya dan tag stickernya`)
 var kodenya = mek.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.fileSha256.toString('base64')
 addCmd(kodenya, c)
-reply("Done Bwang")
+reply("Done Bang")
 } else {
 reply('tag stickenya')
 }
@@ -3512,7 +3513,7 @@ break
 		anu =`PRICELIST SEWABOT
 		10K:6BULAN
 		20K:MANEN
-		SC? https://github.com/KurrXd/kurz`
+		SC? https://github.com/nurutom`
  buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1},
@@ -5615,7 +5616,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `Kurz Bot Assistan`,
+						"message": `verdi botz Assistan`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5626,7 +5627,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 case 'bugcombine':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
                  kurr.toggleDisappearingMessages(from, 'HACKED')
-kurr.sendMessage(from, `Kurz Bot Assistan`, text, {
+kurr.sendMessage(from, `verdi botz gan`, text, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net' // Fake sender Jid
@@ -5636,7 +5637,7 @@ kurr.sendMessage(from, `Kurz Bot Assistan`, text, {
     itemCount: 9999999, // Bug
     status: 1,
     surface: 1,
-    message: `Kurz Bot Assistan`,
+    message: `verdi Assistan`,
     orderTitle: `${NamaOwner}`, // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5667,7 +5668,7 @@ kurr.updatePresence(from, Presence.composing)
     status: 1,
     surface: 1,
     message: `${NamaOwner}`,
-    orderTitle: `Kurz Bot Assistan`, // 
+    orderTitle: `verdi Bot Assistan`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
   }
@@ -5688,7 +5689,7 @@ kurr.sendMessage(from, 'yaudah oke',text, {
     itemCount: 70000, // Bug
     status: 1,
     surface: 1,
-    message: `Kurz Bot Assistan`,
+    message: `verdi Bot Assistan`,
     orderTitle: `${NamaOwner}`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -6144,7 +6145,7 @@ Link : ${get_resultP.url_audio}
                 reply(`Sukses mengganti nama ke ${body.slice(9)}`)
                 break                
              case 'add':
-             reply(`*Punya Tangan Kan kontol? Kalo Punya Ya Dipake Anjengg*`)
+             reply(`*Punya Tangan Kan kw? Kalo Punya Ya Dipake Anjengg*`)
              break
 	
 				case 'kick':
@@ -6416,6 +6417,7 @@ Giliran = @${tty.player1.split('@')[0]}`
 KurrXd
 Dcode Denpa
 Yuzzu Kamiyaka
+Verdi botz
 **/
 
-///----------( Thx Dah Pake Scriptnya )----------\\\
+///----------( verdi thx to )----------\\\
